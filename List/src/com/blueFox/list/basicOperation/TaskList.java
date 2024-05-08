@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import com.blueFox.list.basicOperation.exception.EmptyTaskListException;
+import com.blueFox.list.exception.EmptyListException;
 
 public class TaskList {
     private List<Task> taskList;
@@ -19,7 +19,7 @@ public class TaskList {
         taskList.add(new Task(id, description));
     }
     
-    public void removeTask(String description) throws EmptyTaskListException{
+    public void removeTask(String description) throws EmptyListException{
         List<Task> taskToRemove = new ArrayList<>();
         if(!taskList.isEmpty()){
             for (Task task : taskList) {
@@ -29,7 +29,7 @@ public class TaskList {
             }
             taskList.removeAll(taskToRemove);
         } else {
-            throw new EmptyTaskListException("Empty task list");
+            throw new EmptyListException("Empty task list");
         }
     }
 
@@ -37,12 +37,12 @@ public class TaskList {
         return taskList.size();
     }
 
-    public List<Task> getDescriptionTask() throws EmptyTaskListException {
+    public List<Task> getDescriptionTask() throws EmptyListException {
         List<Task> tasks = null;
         if(!taskList.isEmpty()) {
             tasks = taskList;
         } else {
-            throw new EmptyTaskListException("Empty task list");
+            throw new EmptyListException("Empty task list");
         }
         return tasks;
     }
