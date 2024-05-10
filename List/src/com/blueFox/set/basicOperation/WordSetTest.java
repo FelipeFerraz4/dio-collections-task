@@ -10,6 +10,7 @@ public class WordSetTest {
 
             // System.out.println(wordSet.getWords());
             // wordSet.removeWord("Olá");
+            System.out.println(String.format(null, args));
 
             wordSet.addWord("Olá");
             wordSet.addWord("Gato");
