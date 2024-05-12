@@ -62,4 +62,4 @@
     - exibirLivrosOrdenadosPorPreco(): Exibe os livros da livraria em ordem crescente de preço.
     - pesquisarLivrosPorAutor(String autor): Retorna uma lista de todos os livros escritos por um determinado autor.
     - obterLivroMaisCaro(): Retorna o livro mais caro disponível na livraria.
-    exibirLivroMaisBarato(): Retorna o livro mais barato disponível na livraria.
+    - exibirLivroMaisBarato(): Retorna o livro mais barato disponível na livraria.
