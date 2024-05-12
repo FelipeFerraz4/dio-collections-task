@@ -1,7 +1,7 @@
 package com.blueFox.set.basicOperation;
 
-import com.blueFox.set.exception.ElementNotFindException;
-import com.blueFox.set.exception.EmptySetException;
+import com.blueFox.exception.ElementNotFindException;
+import com.blueFox.exception.EmptySetException;
 
 public class WordSetTest {
     public static void main(String[] args) {
@@ -10,13 +10,13 @@ public class WordSetTest {
 
             // System.out.println(wordSet.getWords());
             // wordSet.removeWord("Olá");
-            System.out.println(String.format(null, args));
+            // System.out.println(String.format(null, args));
 
             wordSet.addWord("Olá");
             wordSet.addWord("Gato");
             wordSet.addWord("Cachorro");
             
-            wordSet.removeWord("Elefante");
+            // wordSet.removeWord("Elefante");
 
             System.out.println(wordSet.checkWord("Gato"));
             System.out.println(wordSet.checkWord("Elefante"));

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import com.blueFox.list.exception.EmptyListException;
+import com.blueFox.exception.EmptyListException;
 
 public class PeopleOrdering {
     private List<Person> peopleOrdering;

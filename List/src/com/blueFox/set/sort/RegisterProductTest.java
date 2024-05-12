@@ -1,6 +1,6 @@
 package com.blueFox.set.sort;
 
-import com.blueFox.set.exception.EmptySetException;
+import com.blueFox.exception.EmptySetException;
 
 public class RegisterProductTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.blueFox.set.exception;
+package com.blueFox.exception;
 
 public class EmptySetException extends Exception {
     public EmptySetException() {

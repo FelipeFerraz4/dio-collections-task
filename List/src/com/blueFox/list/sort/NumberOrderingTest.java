@@ -1,6 +1,6 @@
 package com.blueFox.list.sort;
 
-import com.blueFox.list.exception.EmptyListException;
+import com.blueFox.exception.EmptyListException;
 
 public class NumberOrderingTest {
     public static void main(String[] args) {

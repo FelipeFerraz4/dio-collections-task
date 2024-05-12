@@ -1,20 +1,14 @@
 package com.blueFox.map.search;
 
 public class Product {
-    private int productId;
     private String productName;
     private double productPrice;
     private int productQuantity;
     
-    public Product(int productId, String productName, double productPrice, int productQuantity) {
-        this.productId = productId;
+    public Product(String productName, double productPrice, int productQuantity) {
         this.productName = productName;
         this.productPrice = productPrice;
         this.productQuantity = productQuantity;
-    }
-
-    public int getProductId() {
-        return productId;
     }
 
     public String getProductName() {
@@ -31,7 +25,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "[productId: " + productId + ", productName: " + productName + ", productPrice: " + productPrice
+        return "[productName: " + productName + ", productPrice: " + productPrice
                 + ", productQuantity: " + productQuantity + "]";
     }    
 }

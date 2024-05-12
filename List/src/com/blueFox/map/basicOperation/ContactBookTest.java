@@ -1,23 +1,25 @@
-package com.blueFox.set.search;
+package com.blueFox.map.basicOperation;
 
 import com.blueFox.exception.ElementNotFindException;
-import com.blueFox.exception.EmptySetException;
+import com.blueFox.exception.EmptyMapException;
 
 public class ContactBookTest {
     public static void main(String[] args) {
         try {
             ContactBook contactBook = new ContactBook();
 
-            contactBook.addContact(1, "Fatima", "12132332");
-            contactBook.addContact(2, "Fabiana", "21132332");
-            contactBook.addContact(3, "Estela", "12232332");
+            contactBook.addContact("Carla", 21212121);
+            contactBook.addContact("Violeta", 78878787);
+            contactBook.addContact("Frida", 988212121);
 
-            contactBook.updateContactNumber("Fatima", "89898989");
+            System.out.println(contactBook.getContactBook());
+            System.out.println(contactBook.searchByName("Violeta"));
 
-            System.out.println(contactBook.getContacts());
-            System.out.println(contactBook.searchByName("Fa"));
+            contactBook.removeContact("Frida");
 
-        } catch (EmptySetException e) {
+            System.out.println(contactBook.getContactBook());
+
+        } catch (EmptyMapException e) {
             // TODO: handle exception
             System.out.println(e.getMessage());
             e.printStackTrace();

@@ -1,4 +1,4 @@
-package com.blueFox.map.exception;
+package com.blueFox.exception;
 
 public class EmptyMapException extends Exception {
     public EmptyMapException() {

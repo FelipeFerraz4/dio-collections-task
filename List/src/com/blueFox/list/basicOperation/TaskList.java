@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import com.blueFox.list.exception.EmptyListException;
+import com.blueFox.exception.EmptyListException;
 
 public class TaskList {
     private List<Task> taskList;

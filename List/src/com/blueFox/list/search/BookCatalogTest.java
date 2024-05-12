@@ -1,6 +1,6 @@
 package com.blueFox.list.search;
 
-import com.blueFox.list.exception.EmptyListException;
+import com.blueFox.exception.EmptyListException;
 
 public class BookCatalogTest {
     public static void main(String[] args) {

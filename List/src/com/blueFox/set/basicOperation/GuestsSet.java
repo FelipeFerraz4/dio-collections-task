@@ -3,7 +3,7 @@ package com.blueFox.set.basicOperation;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.blueFox.set.exception.EmptySetException;
+import com.blueFox.exception.EmptySetException;
 
 public class GuestsSet {
     private Set<Guest> guestsSet;

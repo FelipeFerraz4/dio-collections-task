@@ -3,7 +3,7 @@ package com.blueFox.list.search;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.blueFox.list.exception.EmptyListException;
+import com.blueFox.exception.EmptyListException;
 
 public class BookCatalog {
     private List<Book> bookCatalog;

@@ -3,8 +3,8 @@ package com.blueFox.set.search;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.blueFox.set.exception.ElementNotFindException;
-import com.blueFox.set.exception.EmptySetException;
+import com.blueFox.exception.ElementNotFindException;
+import com.blueFox.exception.EmptySetException;
 
 public class ContactBook {
     private Set<Contact> contactBook;

@@ -1,7 +1,7 @@
 package com.blueFox.set.search;
 
-import com.blueFox.set.exception.ElementNotFindException;
-import com.blueFox.set.exception.EmptySetException;
+import com.blueFox.exception.ElementNotFindException;
+import com.blueFox.exception.EmptySetException;
 
 public class TaskListTest {
     public static void main(String[] args) {

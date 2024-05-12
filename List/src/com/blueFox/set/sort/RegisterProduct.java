@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
-import com.blueFox.set.exception.EmptySetException;
+import com.blueFox.exception.EmptySetException;
 
 public class RegisterProduct {
     private Set<Product> registerProduct;

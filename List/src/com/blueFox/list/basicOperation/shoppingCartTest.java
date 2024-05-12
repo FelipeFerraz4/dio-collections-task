@@ -1,6 +1,6 @@
 package com.blueFox.list.basicOperation;
 
-import com.blueFox.list.exception.EmptyListException;
+import com.blueFox.exception.EmptyListException;
 
 public class shoppingCartTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.blueFox.list.exception;
+package com.blueFox.exception;
 
 public class EmptyListException extends Exception{
     public EmptyListException() {

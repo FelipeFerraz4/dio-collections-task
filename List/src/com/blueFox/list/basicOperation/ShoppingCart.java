@@ -3,7 +3,7 @@ package com.blueFox.list.basicOperation;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.blueFox.list.exception.EmptyListException;
+import com.blueFox.exception.EmptyListException;
 
 public class ShoppingCart {
     private List<Product> shoppingCart;

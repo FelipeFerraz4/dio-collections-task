@@ -1,7 +1,6 @@
 package com.blueFox.set.basicOperation;
 
-import com.blueFox.list.exception.EmptyListException;
-import com.blueFox.set.exception.EmptySetException;
+import com.blueFox.exception.EmptySetException;
 
 public class GuestsSetTest {
     public static void main(String[] args) {

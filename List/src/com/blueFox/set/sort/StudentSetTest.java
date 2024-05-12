@@ -1,7 +1,7 @@
 package com.blueFox.set.sort;
 
-import com.blueFox.set.exception.ElementNotFindException;
-import com.blueFox.set.exception.EmptySetException;
+import com.blueFox.exception.ElementNotFindException;
+import com.blueFox.exception.EmptySetException;
 
 public class StudentSetTest {
     public static void main(String[] args) {

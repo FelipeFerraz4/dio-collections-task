@@ -1,4 +1,4 @@
-package com.blueFox.set.exception;
+package com.blueFox.exception;
 
 public class ElementNotFindException extends Exception {
     public ElementNotFindException() {
